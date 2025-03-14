@@ -8,16 +8,8 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-        body, html {
-            height: 100%;
-            overflow-y: scroll; /* Allows scrolling */
-            background-image: url('images/Image_13.jpeg'); /* Set the background to the image */
-            background-size: cover; /* Cover the entire background */
-            background-repeat: no-repeat; /* Do not repeat the image */
-            background-position: center; /* Center the image */
-            display: flex;
-            position: relative; /* Added to position overlay correctly */
+        }  
+      
         }
         .shrinked-image {
             width: 30%; /* Adjust this value to set the desired width of the image */
@@ -81,34 +73,5 @@
             background-repeat: no-repeat;
             transition: background-image 0.9s ease; /* Smooth transition for background image */
         }
-    </style>
-
-
-    <div class="background-text">Your Background Text</div>
-    <!-- Add centered background text -->
-    <div class="container">
-        <div class="text-box" id="text-box-1">Text Box 1</div>
-        <div class="text-box" id="text-box-2">Text Box 2</div>
-        <div class="text-box" id="text-box-3">Text Box 3</div>
-        <div class="text-box" id="text-box-4">Text Box 4</div>
-        <div class="text-box" id="text-box-5">Text Box 5</div>
-    </div>
-    <div class="image-container" id="image-container"></div>
-    <script>
-        const textBoxes = document.querySelectorAll('.text-box');
-        const imageContainer = document.getElementById('image-container');
-        // Array of images
-        const images = [
-            'images/image1.jpg',
-            'images/image2.jpg',
-            'images/image3.jpg',
-            'images/image4.jpg',
-            'images/image5.jpg'
-        ];
-        // Function to update the background image based on scroll position
-        function updateImage() {
-            // Implementation...
-        }
-        // Add event listener
-        window.addEventListener('scroll', updateImage);
-    </script>
+ 
+  

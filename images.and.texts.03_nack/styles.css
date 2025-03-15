@@ -1,0 +1,114 @@
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Text Boxes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            overflow-y: scroll; /* Allows scrolling */
+            background-image: url('images/image_13.jpg'); /* Set the background to the image */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-position: center; /* Center the image */
+            display: flex;
+            position: relative; /* Added to position overlay correctly */
+        }
+        .shrinked-image {
+            width: 30%; /* Adjust this value to set the desired width of the image */
+            height: auto; /* Maintain aspect ratio */
+            position: absolute; /* Use absolute positioning to move it */
+            right: 0; /* Align to the right edge */
+            top: 0; /* You can adjust top or bottom based on your needs */
+        }
+        .container {
+            position: relative;
+            height: 500vh; /* Ensure there is enough space to scroll */
+            width: 70%; /* Left side for text box */
+            margin: auto; /* Center the text box container */
+        }
+        /* Style for the background text overlay */
+        .background-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center it */
+            font-size: 5em; /* Adjust size as needed */
+            color: rgba(255, 255, 255, 0.1); /* Light color with transparency */
+            white-space: nowrap; /* Prevent text wrapping */
+            pointer-events: none; /* Ensure it doesn't interfere with scrolling */
+        }
+        /* Style for each text box */
+        .text-box {
+            position: relative; /* Enable positioning for pseudo-element */
+            height: 150vh; /* Each text box takes up the full viewport height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px; /* Increased font size */
+            font-weight: bold; /* Make the text bold */
+            color: white;
+            text-align: center;
+            z-index: 1; /* Ensure it appears above the background text */
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Dark drop shadow effect */
+        }
+        /* Overlay using pseudo-element */
+        .text-box::before {
+            content: '';
+            position: absolute;
+            width: 700px; /* Adjust size as needed */
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent */
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center the overlay */
+            z-index: -1; /* Place behind the text */
+            border-radius: 10px; /* Optional: rounded corners */
+        }
+        /* Image container that is fixed to the right */
+        .image-container {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%; /* Images take up the full width of the viewport */
+            height: 100vh;
+            background-size: 50% auto; /* Images will now occupy 50% of the width of the container */
+            background-repeat: no-repeat;
+            transition: background-image 0.9s ease; /* Smooth transition for background image */
+        }
+    </style>
+
+
+    <div class="background-text">Your Background Text</div>
+    <!-- Add centered background text -->
+    <div class="container">
+        <div class="text-box" id="text-box-1">Text Box 1</div>
+        <div class="text-box" id="text-box-2">Text Box 2</div>
+        <div class="text-box" id="text-box-3">Text Box 3</div>
+        <div class="text-box" id="text-box-4">Text Box 4</div>
+        <div class="text-box" id="text-box-5">Text Box 5</div>
+    </div>
+    <div class="image-container" id="image-container"></div>
+    <script>
+        const textBoxes = document.querySelectorAll('.text-box');
+        const imageContainer = document.getElementById('image-container');
+        // Array of images
+        const images = [
+            'images/image1.jpg',
+            'images/image2.jpg',
+            'images/image3.jpg',
+            'images/image4.jpg',
+            'images/image5.jpg'
+        ];
+        // Function to update the background image based on scroll position
+        function updateImage() {
+            // Implementation...
+        }
+        // Add event listener
+        window.addEventListener('scroll', updateImage);
+    </script>

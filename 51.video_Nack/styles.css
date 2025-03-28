@@ -1,0 +1,41 @@
+/* Basic reset to ensure full-screen video covers the entire viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-screen video styling */
+video {
+    position: absolute; /* Position the video absolutely */
+    top: 0; /* Align to the top of the screen */
+    left: 0; /* Align to the left of the screen */
+    width: 100%; /* Fill the entire width */
+    height: 100%; /* Fill the entire height */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    z-index: -1; /* Send the video to the back */
+}
+
+/* Styling for the quote text box */
+.quote-box {
+    position: absolute; /* Position the text box absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the position to be truly centered */
+    background-color: rgba(0, 255, 255, 0.2); /* Set a fully transparent background */
+    padding: 5px; /* Adjust padding to make background smaller */
+    border-radius: 100px; /* Round the corners of the box */
+    text-align: center; /* Center the text */
+}
+
+/* Styling for the quote text */
+.quote-box p {
+    color: black; /* Set text color to black */
+    font-style: italic; /* Italicize the text */
+    font-size: 23px; /* Set font size */
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white; /* Create white stroke effect around the text */
+}

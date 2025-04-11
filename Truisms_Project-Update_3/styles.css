@@ -1,0 +1,33 @@
+/* Basic style for fullscreen video */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire viewport */
+}
+
+#text-box {
+    position: absolute;
+    bottom: 30px; /* Lower third of the screen */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the text box */
+    cursor: pointer; /* Change cursor to hand */
+    border-radius: 5px; /* Rounded corners */
+    user-select: none; /* Prevent text selection */
+}

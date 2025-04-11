@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Video with Text Box</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #video-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            object-fit: cover; /* Maintain aspect ratio while covering the container */
+        }
+        #text-box {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <video id="video" src="videos/video01.mp4" autoplay muted loop></video>
+        <div id="text-box" onclick="switchVideo()">Click here to switch video</div>
+    </div>
+    <script>
+        // Array of video sources
+        const videos = [
+            "videos/video01.mp4",
+            "videos/video02.mp4",
+            "videos/video03.mp4"
+        ];
+
+        // Variable to keep track of the last video index to avoid repetition
+        let lastVideoIndex = -1;
+        let soundEnabled = false; // Track whether sound should be enabled
+
+        // Function to switch videos
+        function switchVideo() {
+            const videoElement = document.getElementById("video");
+
+            // Unmute the video on the first click
+            if (!soundEnabled) {
+                videoElement.muted = false; // Unmute the video
+                soundEnabled = true; // Set soundEnabled to true
+            }
+            
+            // Generate a random video index
+            let randomIndex;
+            do {
+                randomIndex = Math.floor(Math.random() * videos.length);
+            } while (randomIndex === lastVideoIndex); // Ensure it's not the same video as the last one
+            
+            lastVideoIndex = randomIndex; // Update the last video index
+
+            // Set the new video source
+            videoElement.src = videos[randomIndex];
+
+            // Load the new video and play it
+            videoElement.load();
+            videoElement.play();
+        }
+    </script>
+    <script src="script.js"></script> <!-- Corrected script tag -->
+</body>
+</html>

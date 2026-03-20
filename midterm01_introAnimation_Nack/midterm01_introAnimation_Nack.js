@@ -95,42 +95,42 @@ p.nominalBounds = new cjs.Rectangle(0,0,2726,979);
 
 
 
-(lib.CachedBmp_37 = function() {
+(lib.CachedBmp_6 = function() {
 	this.initialize(ss["midterm01_introAnimation_Nack_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_29 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["midterm01_introAnimation_Nack_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_28 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["midterm01_introAnimation_Nack_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_27 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["midterm01_introAnimation_Nack_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_26 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["midterm01_introAnimation_Nack_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_25 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["midterm01_introAnimation_Nack_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
@@ -690,22 +690,22 @@ if (reversed == null) { reversed = false; }
 	this.shape_3.graphics.f("#FF3300").s().p("AmYEuIgDgGIgDgDIgHgFIgGgEIgKgIIgHgDIgIgEIgDgDIgJgLIgKgLIgKgQQgHgKgFgJIgCgIQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAgBIADgPIAGgYQACgKAGgIIAHgFIAAgBQAagQAcgMQAYgKAZgGIAJgEQAKgEAKgBIANgCIALgCIASgDIANAAIAEABIAIgBQAEgCAEAAIANAAIAFAAIADgBIARgFIAUgHIAFAAIAYgQQAKgFAMAAIACAAIAFACIAEACIAFAAQAAABAAAAQAAABABAAQAAABABAAQAAAAABAAIADADIACACIACADIACAEIABADIACAFIABADIAAAEIAAAFQgDAOgLAKIgZAYIAAAGQAAALgJAJQgSASgUAQIgCAGQgEAMgHAKQgGAMgFANIgDALIgCABQgUANgQARQgyADgxALQgQAEgPAFIgBAAgAFlDzQgYgPgcgHQgLgGgJgHQgPgNgRgKIgJgDIgCgDIgDgDIgCgDQgFgFgGgCQgOgEgMgKQgEgEgHgBIgDgCIgDgEIgDgBIgFgCIgEgCIgDgCIgDgDIgGgEQgGgHgHgCIgDgDQgMgKgNgKQgUgMgQgQIgGgHIgFgEIgNgKIgNgIIgDgDIgJgIQgHgEgFgGIgBgDIgFgBIgDgCIgCgEIgCgDQgSgKgMgSIgggzIgDgHIgBgDIAAgJIAAgGQACgGADgFIACgCIAHgGIAAgBIAEgBQAggmAggjIAIgLIA0gjIBQg3IANAAIAIABIAEgBIAUgGIALAAIAWADIAKACIAOgBIAJACQAaADAZAHQAUAGARAOIAHAGIAEAGIAiAxIAjAxIAWAfIACAHIACAHIABAJIADAHIADAHIACAIIABAJIACAQIADAHIAEAHIAEAHIACAGIADARIABAIIABAIIgCAKIgDAWIgCAKIABAJIACAIIgBAIQgQA4gaA1QgKAUgIAXIgBAEIgBAGIgBAAIgCAEIgJAJQgLAJgOABQgUgDgSgMgACUhQIATgHQAdgMACgbQAAgIgFgIQgFgNgKgMIgLgLIgDgDIgEgBIgEgBIgEgCIgGAAIgJACIgKADIAAABIgIAFQgKASgGAUQgBAJACAJIAKAPQAEAHAFAFIAGAGIAIADIAGABIABAAIAEABgACtDvQAEgCAGABIAFACIABACIgQgDgAAkDlIgEgFIgNgTIgEgGIgBgEIgEgLIgFgKIgBgFIAAgDIAAgJIgCgFIAAgDIgBgEIAAgFIgBgDIAAgEIgDgEIgCgHIAAgEIABgFIACgGIAEgEIAAAAIAJgDIAGAAIAEACIADABIAHAGIACADIACADIADAGIACAEIABAIIADANIACAHIAAAFIgBAFIACADIABADIACAEIADADIAAAEIACAEIABADQAIADAOgHQAJgFAJgEIAHABIAEAAIAEACIADADIAFAGIAAAEIACADIABAJIAAAEIgCAGIgEAHIABAFIABAIIAAAAQgpgDgpAAg");
 	this.shape_3.setTransform(-70.45,57.15);
 
-	this.instance = new lib.CachedBmp_25();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-139.1,-14.15,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_26();
+	this.instance_1 = new lib.CachedBmp_2();
 	this.instance_1.setTransform(-106.75,-50.5,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_27();
+	this.instance_2 = new lib.CachedBmp_3();
 	this.instance_2.setTransform(-86.1,-71.4,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_28();
+	this.instance_3 = new lib.CachedBmp_4();
 	this.instance_3.setTransform(-21.3,-89.1,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_29();
+	this.instance_4 = new lib.CachedBmp_5();
 	this.instance_4.setTransform(40.45,-75.3,0.5,0.5);
 
-	this.instance_5 = new lib.CachedBmp_37();
+	this.instance_5 = new lib.CachedBmp_6();
 	this.instance_5.setTransform(72.25,-53.25,0.5,0.5);
 
 	this.shape_4 = new cjs.Shape();
@@ -1001,9 +1001,9 @@ if (reversed == null) { reversed = false; }
 	// FishingPole
 	this.fishingpole = new lib.Fishingpole();
 	this.fishingpole.name = "fishingpole";
-	this.fishingpole.setTransform(902.35,430.95,0.6174,0.6133,2.2543,0,0,84.6,-7.1);
+	this.fishingpole.setTransform(902.35,430.95,0.6174,0.6133,2.2543,0,0,84.5,-7);
 
-	this.timeline.addTween(cjs.Tween.get(this.fishingpole).wait(1).to({regX:84.2,regY:36.5,scaleY:0.6134,rotation:2.2553,x:891.55,y:453.9},0).wait(1).to({x:882.05,y:450.2},0).wait(1).to({x:872.55,y:446.5},0).wait(1).to({x:863.05,y:442.8},0).wait(1).to({x:853.55,y:439.1},0).wait(1).to({x:844.05,y:435.4},0).wait(1).to({x:834.6,y:431.7},0).wait(1).to({x:825.1,y:428},0).wait(1).to({x:815.6,y:424.3},0).wait(1).to({x:806.1,y:420.6},0).wait(1).to({x:796.6,y:416.9},0).wait(1).to({x:787.1,y:413.2},0).wait(1).to({x:777.65,y:409.5},0).wait(1).to({x:768.15,y:405.8},0).wait(1).to({x:758.65,y:402.1},0).wait(1).to({x:749.15,y:398.35},0).wait(1).to({x:739.65,y:394.65},0).wait(1).to({x:730.2,y:390.95},0).wait(1).to({x:720.7,y:387.25},0).wait(1).to({x:711.2,y:383.55},0).wait(1).to({x:701.7,y:379.85},0).wait(1).to({x:692.2,y:376.15},0).wait(1).to({x:682.7,y:372.45},0).wait(1).to({x:673.25,y:368.75},0).wait(1).to({x:663.75,y:365.05},0).wait(1).to({x:654.25,y:361.35},0).wait(1).to({x:644.75,y:357.65},0).wait(1).to({x:635.25,y:353.95},0).wait(1).to({x:625.75,y:350.25},0).wait(1).to({x:616.3,y:346.55},0).wait(1).to({x:606.8,y:342.85},0).wait(1).to({x:597.3,y:339.1},0).wait(1).to({x:587.8,y:335.4},0).wait(1).to({x:578.3,y:331.7},0).wait(1).to({x:568.8,y:328},0).wait(1).to({x:559.35,y:324.3},0).wait(1).to({x:549.85,y:320.6},0).wait(1).to({x:540.35,y:316.9},0).wait(1).to({x:530.85,y:313.2},0).wait(1).to({x:521.35,y:309.5},0).wait(1).to({x:511.85,y:305.8},0).wait(1).to({x:502.4,y:302.1},0).wait(1).to({x:492.9,y:298.4},0).wait(1).to({x:483.4,y:294.7},0).wait(1).to({x:473.9,y:291},0).wait(1).to({x:464.4,y:287.3},0).wait(1).to({x:454.9,y:283.55},0).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.fishingpole).wait(1).to({regX:84.2,regY:36.5,scaleY:0.6134,rotation:2.2553,x:891.6,y:453.85},0).wait(1).to({x:882.1,y:450.15},0).wait(1).to({x:872.6,y:446.45},0).wait(1).to({x:863.1,y:442.75},0).wait(1).to({x:853.6,y:439.05},0).wait(1).to({x:844.1,y:435.35},0).wait(1).to({x:834.65,y:431.65},0).wait(1).to({x:825.15,y:427.95},0).wait(1).to({x:815.65,y:424.25},0).wait(1).to({x:806.15,y:420.55},0).wait(1).to({x:796.65,y:416.85},0).wait(1).to({x:787.15,y:413.15},0).wait(1).to({x:777.7,y:409.45},0).wait(1).to({x:768.2,y:405.75},0).wait(1).to({x:758.7,y:402.05},0).wait(1).to({x:749.2,y:398.3},0).wait(1).to({x:739.7,y:394.6},0).wait(1).to({x:730.25,y:390.9},0).wait(1).to({x:720.75,y:387.2},0).wait(1).to({x:711.25,y:383.5},0).wait(1).to({x:701.75,y:379.8},0).wait(1).to({x:692.25,y:376.1},0).wait(1).to({x:682.75,y:372.4},0).wait(1).to({x:673.3,y:368.7},0).wait(1).to({x:663.8,y:365},0).wait(1).to({x:654.3,y:361.3},0).wait(1).to({x:644.8,y:357.6},0).wait(1).to({x:635.3,y:353.9},0).wait(1).to({x:625.8,y:350.2},0).wait(1).to({x:616.35,y:346.5},0).wait(1).to({x:606.85,y:342.8},0).wait(1).to({x:597.35,y:339.05},0).wait(1).to({x:587.85,y:335.35},0).wait(1).to({x:578.35,y:331.65},0).wait(1).to({x:568.85,y:327.95},0).wait(1).to({x:559.4,y:324.25},0).wait(1).to({x:549.9,y:320.55},0).wait(1).to({x:540.4,y:316.85},0).wait(1).to({x:530.9,y:313.15},0).wait(1).to({x:521.4,y:309.45},0).wait(1).to({x:511.9,y:305.75},0).wait(1).to({x:502.45,y:302.05},0).wait(1).to({x:492.95,y:298.35},0).wait(1).to({x:483.45,y:294.65},0).wait(1).to({x:473.95,y:290.95},0).wait(1).to({x:464.45,y:287.25},0).wait(1).to({x:454.95,y:283.5},0).wait(53));
 
 	// Fish
 	this.fish = new lib.Fish();
@@ -1021,10 +1021,10 @@ if (reversed == null) { reversed = false; }
 	// Sharkfin
 	this.sharkfin = new lib.Sharkfin();
 	this.sharkfin.name = "sharkfin";
-	this.sharkfin.setTransform(770.1,558.3,0.4001,0.3578,-9.2108,0,0,32.7,-49);
+	this.sharkfin.setTransform(770.1,558.3,0.4001,0.3578,-9.2108,0,0,32.5,-48.9);
 	this.sharkfin.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.sharkfin).wait(1).to({regX:8,regY:-149.7,rotation:-9.2123,x:754.55,y:524.35},0).wait(23).to({alpha:0.0357},0).wait(1).to({alpha:0.0714},0).wait(1).to({alpha:0.1071},0).wait(1).to({alpha:0.1429},0).wait(1).to({alpha:0.1786},0).wait(1).to({alpha:0.2143},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.2857},0).wait(1).to({alpha:0.3214},0).wait(1).to({alpha:0.3571},0).wait(1).to({alpha:0.3929},0).wait(1).to({alpha:0.4286},0).wait(1).to({alpha:0.4643},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.5357},0).wait(1).to({alpha:0.5714},0).wait(1).to({alpha:0.6071},0).wait(1).to({alpha:0.6429},0).wait(1).to({alpha:0.6786},0).wait(1).to({alpha:0.7143},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.7857},0).wait(1).to({alpha:0.8214},0).wait(1).to({alpha:0.8571},0).wait(1).to({alpha:0.8929},0).wait(1).to({alpha:0.9286},0).wait(1).to({alpha:0.9643},0).wait(1).to({alpha:1},0).wait(49));
+	this.timeline.addTween(cjs.Tween.get(this.sharkfin).wait(1).to({regX:8,regY:-149.7,rotation:-9.2123,x:754.6,y:524.3},0).wait(23).to({alpha:0.0357},0).wait(1).to({alpha:0.0714},0).wait(1).to({alpha:0.1071},0).wait(1).to({alpha:0.1429},0).wait(1).to({alpha:0.1786},0).wait(1).to({alpha:0.2143},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.2857},0).wait(1).to({alpha:0.3214},0).wait(1).to({alpha:0.3571},0).wait(1).to({alpha:0.3929},0).wait(1).to({alpha:0.4286},0).wait(1).to({alpha:0.4643},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.5357},0).wait(1).to({alpha:0.5714},0).wait(1).to({alpha:0.6071},0).wait(1).to({alpha:0.6429},0).wait(1).to({alpha:0.6786},0).wait(1).to({alpha:0.7143},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.7857},0).wait(1).to({alpha:0.8214},0).wait(1).to({alpha:0.8571},0).wait(1).to({alpha:0.8929},0).wait(1).to({alpha:0.9286},0).wait(1).to({alpha:0.9643},0).wait(1).to({alpha:1},0).wait(49));
 
 	// tallgrass2
 	this.tallgrass2 = new lib.tallgrass2();
@@ -1091,11 +1091,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_21.png?1773934723603", id:"CachedBmp_21"},
-		{src:"images/CachedBmp_20.png?1773934723603", id:"CachedBmp_20"},
-		{src:"images/CachedBmp_8.png?1773934723603", id:"CachedBmp_8"},
-		{src:"images/midterm01_introAnimation_Nack_atlas_1.png?1773934723535", id:"midterm01_introAnimation_Nack_atlas_1"},
-		{src:"images/midterm01_introAnimation_Nack_atlas_2.png?1773934723536", id:"midterm01_introAnimation_Nack_atlas_2"}
+		{src:"images/CachedBmp_21.png?1773978320385", id:"CachedBmp_21"},
+		{src:"images/CachedBmp_20.png?1773978320385", id:"CachedBmp_20"},
+		{src:"images/CachedBmp_8.png?1773978320385", id:"CachedBmp_8"},
+		{src:"images/midterm01_introAnimation_Nack_atlas_1.png?1773978320318", id:"midterm01_introAnimation_Nack_atlas_1"},
+		{src:"images/midterm01_introAnimation_Nack_atlas_2.png?1773978320318", id:"midterm01_introAnimation_Nack_atlas_2"}
 	],
 	preloads: []
 };
